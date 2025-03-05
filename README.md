@@ -10,4 +10,4 @@ This repository contains our work on using **unsupervised clustering** and **pre
 
 ## **Code Development and Contributions**
 
-The code for this project was developed by **Diksha Chaudhury**, under the supervision of **Dr. Vianey Leos Barajas**, course instructor for **STA2453** at the **University of Toronto**. This repository will be updated as new developments arise.
+The code for this project was developed by **Diksha Sen Chaudhury**, under the supervision of **Dr. Vianey Leos Barajas**, course instructor for **STA2453** at the **University of Toronto**. This repository will be updated as new developments arise.
