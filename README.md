@@ -4,7 +4,8 @@ This repository contains our work on using **unsupervised clustering** and **pre
 
 ## **Code and Workflow**
 
-- **Preprocessing and Flare Detection**: The script `EDA_and_DBSCAN.py` imputes missing values into the time series, performs exploratory data analysis (EDA) to understand the data, and applies **DBSCAN clustering** to identify potential stellar flares.
+- **Data-preprocessing and EDA**: The script `EDA.ipynb` imputes missing values into the time series and performs exploratory data analysis (EDA) to understand the data. 
+- **Flare Detection**: The script `DBSCAN.ipynb` applies **DBSCAN clustering** to identify potential stellar flares.
 - **Flare Injection & Recovery (TBD)**: Flares are simulated using `flare_injection.py`, allowing for controlled injection of synthetic flares into the light curve. The detection accuracy of the DBSCAN algorithm will be assessed by comparing detected vs. injected flares.
 - **Model Training (TBD)**: The script `train_model.py` will train a predictive model using extracted flare features. Model performance will be evaluated on a test set to determine accuracy in flare prediction.
 
