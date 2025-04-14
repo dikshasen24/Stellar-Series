@@ -4,10 +4,10 @@ This repository contains our work on using **unsupervised clustering** and **pre
 
 ## **Code and Workflow**
 
-- **Data-preprocessing and EDA**: The script `EDA.ipynb` imputes missing values into the time series and performs exploratory data analysis (EDA) to understand the data. 
-- **Flare Detection**: The script `DBSCAN.ipynb` applies **DBSCAN clustering** to identify potential stellar flares.
-- **Flare Injection & Recovery**: Flares are simulated using `Simulations.ipynb`, allowing for controlled injection of synthetic flares into the light curve. The detection accuracy of the DBSCAN algorithm will be assessed by comparing detected vs. injected flares.
-- **Model Training**: The script `Predictive_Models.ipynb` will train a predictive model using extracted flare features. Model performance will be evaluated on a test set to determine accuracy in flare prediction.
+- **Data-preprocessing and EDA**: `EDA.ipynb` handles missing value imputation and performs exploratory data analysis to understand the structure and trends in the stellar time series.
+- **Flare Detection**: `DBSCAN.ipynb` applies DBSCAN clustering to identify potential stellar flares based on flux features.
+- **Flare Injection & Recovery**: `Simulations.ipynb` simulates synthetic flares and injects them into the light curve. Detection accuracy is evaluated by comparing DBSCAN-detected flares against the known injected events.
+- **Model Training**: `Predictive_Models.ipynb` trains a predictive model using extracted flare-related features. The response variable is based on flares flagged by the DBSCAN algorithm. Model performance is assessed on a test set to evaluate its predictive accuracy.
 
 ## **Code Development and Contributions**
 
