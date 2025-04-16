@@ -1,6 +1,7 @@
 # Stellar Flares Detection from Photometric Data Using Clustering and Machine Learning
 
-This repository contains our work on using **unsupervised clustering** and **predictive modeling** to detect stellar flares from **TESS photometric time-series data**. Our goal is to develop an approach that can accurately identify stellar flares and predict future occurrences. We preprocess flux data from **TIC 0131799991**, perform exploratory data analysis (EDA), and apply clustering techniques for initial flare detection. A predictive model is then trained using the detected flare data.
+This repository contains my work on using **unsupervised clustering** and **predictive modeling** to detect stellar flares from TESS photometric time-series data. My goal is to develop an approach that can accurately identify stellar flares and predict future occurrences. I preprocess flux data from **TIC 0131799991**, perform exploratory data analysis (EDA), and apply clustering techniques for initial flare detection. A predictive model is then trained using the detected flare data.
+
 
 ## **Code and Workflow**
 
